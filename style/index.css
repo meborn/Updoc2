@@ -1,0 +1,352 @@
+#header-container {
+	border: 0px solid rgba(0, 0, 0, 0);
+}
+#home-intro {
+	width:100%;
+	position: relative;
+	bottom:60px;
+	z-index:0;
+	margin:0px auto;
+}
+
+#home-intro-text{
+	position: absolute;
+}
+
+#home-intro-links {
+	position: absolute;
+}
+
+#home-intro img {
+	width:100%;
+}
+
+#header-img {
+	border-bottom: 3px solid #FE8C24;
+}
+
+#home-intro-text h1 {
+	color:#FFFAEE;
+	font-family: norwester;
+	margin:0px;
+}
+
+#home-intro-text h2 {
+	color:#000;
+	font-family: dosis;
+	margin:0px;
+}
+
+
+
+#home-intro-links a {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+#home-intro-links a img {
+	width:70%;
+	display: block;
+	margin:10px auto;
+}
+
+@media only all and (max-width: 420px) {
+	#home-intro-text {
+		margin-left: 4%;
+		bottom:5%;
+	}
+
+	#home-intro-text h1 {
+		font-size: 9vw;
+	}
+
+	#home-intro-text h2 {
+		font-size: 6.5vw;
+	}
+
+	#home-intro-links {
+		bottom:-65px;
+		margin-left: 5%;
+		width:96%;
+	}
+
+	#home-intro-links a {
+		/*height:40px;*/
+		height:0;
+		width:15%;
+		padding-bottom: 15%;
+		overflow: hidden;
+		border:1px solid #FE8C24;
+		border-radius: 50%;
+		margin-right: 5px;
+	}
+
+	#home-intro-links a:nth-child(1) img {
+		content: url(../images/index/residential-icon-dark.png);
+	}
+
+	#home-intro-links a:nth-child(2) img {
+		content: url(../images/index/commercial-icon-dark.png);
+	}
+
+	#home-intro-links a:nth-child(3) img {
+		content: url(../images/index/auto-icon-dark.png);
+	}
+}
+
+@media only all and (min-width: 421px) and (max-width:669px) {
+	#home-intro-text {
+		margin-left: 4%;
+		bottom:5%;
+	}
+
+	#home-intro-text h1 {
+		font-size: 9vw;
+	}
+
+	#home-intro-text h2 {
+		font-size: 6.5vw;
+	}
+
+	#home-intro-links {
+		bottom:-80px;
+		margin-left: 5%;
+		width:96%;
+	}
+
+	#home-intro-links a {
+		/*height:40px;*/
+		height:0;
+		width:12%;
+		padding-bottom: 12%;
+		overflow: hidden;
+		border:1px solid #FE8C24;
+		border-radius: 50%;
+		font-size: 4.5vw;
+		color:#333;
+		margin-right: 15px;
+	}
+
+	#home-intro-links a:nth-child(1) img {
+		content: url(../images/index/residential-icon-dark.png);
+	}
+
+	#home-intro-links a:nth-child(2) img {
+		content: url(../images/index/commercial-icon-dark.png);
+	}
+
+	#home-intro-links a:nth-child(3) img {
+		content: url(../images/index/auto-icon-dark.png);
+	}
+}
+
+@media only all and (min-width: 670px) and (max-width: 767px) {
+
+	#home-intro-text {
+		margin-left: 4%;
+		bottom:22%;
+	}
+
+	#home-intro-text h1 {
+		font-size: 9vw;
+	}
+
+	#home-intro-text h2 {
+		font-size: 5vw;
+	}
+
+	#home-intro-links {
+		bottom:5px;
+		margin-left: 5%;
+		width:96%;
+	}
+
+	#home-intro-links a {
+		/*height:40px;*/
+		height:0;
+		width:12%;
+		padding-bottom: 12%;
+		overflow: hidden;
+		border:2px solid #FE8C24;
+		border-radius: 50%;
+		font-size: 4.5vw;
+		color:#333;
+	}
+
+	#home-intro-links a:nth-child(1) img {
+		content: url(../images/index/residential-icon.png);
+	}
+
+	#home-intro-links a:nth-child(2) img {
+		content: url(../images/index/commercial-icon.png);
+	}
+
+	#home-intro-links a:nth-child(3) img {
+		content: url(../images/index/auto-icon.png);
+	}
+}
+
+@media only all and (min-width: 768px) and (max-width: 969px) {
+	#home-intro-text {
+		margin-left: 4%;
+		bottom:30%;
+	}
+
+	#home-intro-text h1 {
+		font-size: 9vw;
+	}
+
+	#home-intro-text h2 {
+		font-size: 5vw;
+	}
+
+	#home-intro-links {
+		bottom:40px;
+		margin-left: 5%;
+		width:96%;
+	}
+
+	#home-intro-links a {
+		height:0;
+		width:12%;
+		padding-bottom: 12%;
+		overflow: hidden;
+		border:2px solid #FE8C24;
+		border-radius: 50%;
+		font-size: 4.5vw;
+		color:#333;
+	}
+
+	#home-intro-links a:nth-child(1) img {
+		content: url(../images/index/residential-icon.png);
+	}
+
+	#home-intro-links a:nth-child(2) img {
+		content: url(../images/index/commercial-icon.png);
+	}
+
+	#home-intro-links a:nth-child(3) img {
+		content: url(../images/index/auto-icon.png);
+	}
+}
+
+@media only all and (min-width: 970px) and (max-width: 1089px) {
+	#home-intro-text {
+		margin-left:5%;
+	}
+
+	#home-intro-links {
+		margin-left: 5%;
+	}
+
+}
+
+@media only all and (min-width:1090px) and (max-width:1190px) {
+	#home-intro-text {
+		margin-left:7%;
+	}
+
+	#home-intro-links {
+		margin-left: 7%;
+	}
+}
+
+@media only all and (min-width: 1191px) and (max-width: 1199px) {
+	#home-intro-text {
+		margin-left:9%;
+	}
+
+	#home-intro-links {
+		margin-left: 9%;
+	}
+}
+
+@media only all and (min-width: 970px) and (max-width: 1199px) {
+	#home-intro-text {
+		bottom:30%;
+	}
+
+	#home-intro-text h1 {
+		font-size: 9vw;
+	}
+
+	#home-intro-text h2 {
+		font-size: 5vw;
+	}
+
+	#home-intro-links {
+		bottom:70px;
+		width:96%;
+	}
+
+	#home-intro-links a {
+		height:0;
+		width:12%;
+		padding-bottom: 12%;
+		overflow: hidden;
+		border:2px solid #FE8C24;
+		border-radius: 50%;
+		font-size: 4.5vw;
+		color:#333;
+		margin-right: 10px;
+	}
+
+	#home-intro-links a:nth-child(1) img {
+		content: url(../images/index/residential-icon.png);
+	}
+
+	#home-intro-links a:nth-child(2) img {
+		content: url(../images/index/commercial-icon.png);
+	}
+
+	#home-intro-links a:nth-child(3) img {
+		content: url(../images/index/auto-icon.png);
+	}
+}
+
+@media only all and (min-width: 1200px) {
+	#home-intro-text {
+		bottom:30%;
+		margin-left:9%;
+	}
+
+	#home-intro-text h1 {
+		font-size: 102px;
+	}
+
+	#home-intro-text h2 {
+		font-size: 52px;
+		margin-left: 25px;
+	}
+
+	#home-intro-links {
+		bottom:70px;
+		width:96%;
+		margin-left: 9%;
+	}
+
+	#home-intro-links a {
+		height:0;
+		width:12%;
+		padding-bottom: 12%;
+		overflow: hidden;
+		border:2px solid #FE8C24;
+		border-radius: 50%;
+		font-size: 4.5vw;
+		color:#333;
+		margin-right: 10px;
+	}
+
+	#home-intro-links a:nth-child(1) img {
+		content: url(../images/index/residential-icon.png);
+	}
+
+	#home-intro-links a:nth-child(2) img {
+		content: url(../images/index/commercial-icon.png);
+	}
+
+	#home-intro-links a:nth-child(3) img {
+		content: url(../images/index/auto-icon.png);
+	}
+}

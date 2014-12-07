@@ -1,0 +1,293 @@
+#content {
+	/*background-color: blue;*/
+}
+
+#header-container {
+	background-image: url(../images/contact/contact-header.jpg);
+	/*box-shadow: 0px 5px 10px #444;*/
+}
+
+#contact-address h1 {
+		margin:0px;
+		font-family: norwester;
+		color:#333333;
+		border-bottom:3px solid #FE8C24;
+}
+
+#contact-address h2 {
+		font-family: norwester;
+		color:#333333;
+		margin:0px;
+		margin-top:20px;
+	}
+
+#contact-address em {
+		font-family: dosis;
+		color:#333333;
+	}
+
+	#contact-address h3 {
+		font-family: norwester;
+		color:#FE8C24;
+		margin-bottom:20px;
+	}
+
+	#contact-address {
+		width:100%;
+	}
+
+	#map_canvas {
+		border:2px solid #333333;
+	}
+
+	#contact-form h1 {
+		width:100%;
+		font-family: norwester;
+		color:#333333;
+		border-bottom: 3px solid #FE8C24;
+	}
+
+	.contact-input {
+		display:inline-block;
+		width:100%;
+		height:30px;
+		border:1px solid #333333;
+		color:#333333;
+		font-family: dosis;
+		margin:8px 0px;
+		font-size: 18px;
+	}
+
+	.contact-input:focus {
+		outline: none !important;
+    	border:2px solid #FE8C24;
+	}
+
+	#contact-message {
+		width:100%;
+		border:1px solid #333333;
+		color:#333333;
+		font-family: dosis;
+		margin:8px 0px;
+		font-size: 18px;
+	}
+
+	#contact-submit {
+		width:100%;
+		height:40px;
+		background-color: #FFFAEE;
+		border:2px solid #FE8C24;
+		font-family: dosis;
+		font-size: 28px;
+		margin:20px 0px;
+	}
+
+	#contact-submit:focus {
+		outline: none !important;
+    	border:2px solid #FE8C24;
+	}
+
+	#email-message h1 {
+		font-size: 32px;
+		font-family: norwester;
+		color:#FE8C24;
+	}
+
+	.error {
+		color:#FE8C24;
+		font-size: 22px;
+		font-family: dosis;
+	}
+
+	.label {
+		font-family: norwester;
+		color:#333333;
+		font-size: 24px;
+	}
+
+@media only all and (max-width: 767px) {
+	#contact-info {
+		border-bottom: 2px solid #333333;
+	}
+
+	#contact-address h1 {
+		font-size:32px;
+	}
+
+	#contact-address h2 {
+		font-size: 22px;	
+	}
+
+	#contact-address em {
+		font-size: 22px;
+	}
+
+	#contact-address h3 {
+		font-size: 32px;
+	}
+
+	#contact-address {
+		max-width: 370px;
+	}
+
+	#map_canvas {
+		max-width: 400px;
+		height:200px;
+		margin-bottom: 40px;
+	}
+
+	#contact-form {
+		margin-top: 40px;
+	}
+
+	#contact-form h1 {
+		max-width: 370px;
+		font-size: 32px;
+		margin-top:0px;
+	}
+
+	.contact-input {
+		max-width: 350px;
+		font-size: 18px;
+	}
+
+	#contact-message {
+		width:100%;
+		max-width: 400px;
+		height:200px;
+		font-size: 18px;
+	}
+
+	#contact-submit {
+		max-width: 400px;
+	}
+}
+
+@media only all and (min-width: 768px) and (max-width: 969px) {
+	#content {
+		overflow: auto;
+	}
+	#contact-info {
+		width:46%;
+		padding-right: 3%;
+		float:left;
+	}
+
+	#contact-address h1 {
+		font-size:32px;
+	}
+
+	#contact-address h2 {
+		font-size: 22px;	
+	}
+
+	#contact-address em {
+		font-size: 22px;
+	}
+
+	#contact-address h3 {
+		font-size: 32px;
+	}
+
+	#map_canvas {
+		height:250px;
+	}
+
+	#contact-form {
+		width:47%;
+		float:left;
+		padding-left:3%;
+		border-left: 1px solid #333333;
+	}
+
+	#contact-form h1 {
+		margin-top: 0px;
+	}
+
+}
+
+@media only all and (min-width: 970px) and (max-width: 1199px) {
+	#content {
+		overflow: auto;
+	}
+	#contact-info {
+		width:46%;
+		padding-right: 3%;
+		float:left;
+	}
+
+	#contact-address h1 {
+		font-size:32px;
+	}
+
+	#contact-address h2 {
+		font-size: 22px;	
+	}
+
+	#contact-address em {
+		font-size: 22px;
+	}
+
+	#contact-address h3 {
+		font-size: 32px;
+	}
+
+	#map_canvas {
+		height:300px;
+	}
+
+	#contact-form {
+		width:47%;
+		float:left;
+		padding-left:3%;
+		border-left: 1px solid #333333;
+	}
+
+	#contact-form h1 {
+		margin-top: 0px;
+	}
+
+	
+}
+
+@media only all and (min-width: 1200px) {
+	#content {
+		overflow: auto;
+	}
+	#contact-info {
+		width:46%;
+		padding-right: 3%;
+		float:left;
+	}
+
+	#contact-address h1 {
+		font-size:32px;
+	}
+
+	#contact-address h2 {
+		font-size: 22px;	
+	}
+
+	#contact-address em {
+		font-size: 22px;
+	}
+
+	#contact-address h3 {
+		font-size: 32px;
+	}
+
+	#map_canvas {
+		height:300px;
+	}
+
+	#contact-form {
+		width:47%;
+		float:left;
+		padding-left:3%;
+		border-left: 1px solid #333333;
+	}
+
+	#contact-form h1 {
+		margin-top: 0px;
+	}
+}
