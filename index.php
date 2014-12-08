@@ -9,6 +9,7 @@
 		
 	</head>
 	<body>
+		<?php $page = 'Home' ?>
 		<div id="container">
 			<div id="header-container">
 				<?php include('includes/header.php'); ?>
@@ -20,7 +21,7 @@
 						<h2>Upholstery & Repair</h2>
 					</div>
 					<div id="home-intro-links">
-						<a href="services.php">
+						<a href="services.php#furniture">
 							<img>
 						</a>
 						<a href="services.php">

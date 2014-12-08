@@ -31,7 +31,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		} else {
 			$phone = test_input($_POST["phone"]);
 			$regex = "/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i";
-			if(!preg_match($regex, $phone)) {
+			// $regex = "/[^0-9]/";
+			if(!preg_match($regex, $phone) && strlen($phone) > 10) {
+				$phoneErr = "* Invalid Phone Number";
+			}
+			if(!preg_match($regex, $phone) && strlen($phone) < 10) {
 				$phoneErr = "* Invalid Phone Number";
 			}
 		}

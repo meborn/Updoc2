@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 	</head>
 	<body>
+		<?php $page = 'About' ?>
 		<div id="container">
 			<div id="header-container">
 				<?php include('includes/header.php'); ?>
