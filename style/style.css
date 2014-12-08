@@ -1,3 +1,18 @@
+@font-face {
+	font-family: norwester;
+	src: url(../fonts/norwester/norwester.otf);
+}
+
+@font-face {
+	font-family: dosis;
+	src: url(../fonts/dosis/Dosis-ExtraLight.otf);
+}
+
+@font-face {
+	font-family: volkron;
+	src: url(../fonts/Volkron/Volkron-Regular.ttf);
+}
+
 body {
 	background-color: #333333;
 	margin:0px;
@@ -16,6 +31,20 @@ body {
 	position: relative;
 	z-index: 10;
 	border-bottom: 3px solid #FE8C24;
+}
+
+#header-intro {
+	position: relative;
+	width:95%;
+	max-width: 960px;
+	margin:0px auto;
+}
+
+#header-intro h1 {
+	color:#FFFAEE;
+	font-family: norwester;
+	margin:0px;
+	position: absolute;
 }
 
 #header-nav {
@@ -168,9 +197,87 @@ nav {
 
 	#footer-container { 
 		width:100%;
-		height:100px;
-		background-color: rgba(51, 51, 51, 0.7);
+		height:200px;
+		/*background-color: rgba(51, 51, 51, 0.9);*/
+		background-color: #222222;
 		border-top: 3px solid #FE8C24;
+	}
+
+	#footer-container a {
+		text-decoration: none;
+	}
+
+	#footer {
+		height:200px;
+		width:95%;
+		max-width: 960px;
+		margin:0px auto;
+		position: relative;
+	}
+
+	#social-icons {
+		position: absolute;
+		right:0px;
+		bottom: 10px;
+	}
+
+	#social-icons a {
+		margin-left:10px;
+	}
+
+	#footer-menu {
+		/*width: 100%;*/
+		height:40px;
+		font-family: dosis;
+		color:#FFFAEE;
+		position: absolute;
+		top:20px;
+	}
+
+	#footer-menu ul {
+		padding:0px;
+	}
+
+	#footer-menu li {
+		display: inline-block;
+		color:#FE8C24;
+		list-style-type: none;
+		margin-right: 30px;
+	}
+
+	#footer-menu li:hover {
+		border-bottom: 1px solid #FE8C24;
+	}
+
+	#footer-menu li a {
+		color:#FFFAEE;
+		text-decoration: none;
+
+	}
+
+	#footer-address {
+		color:#FFFAEE;
+		position: absolute;
+		bottom:20px;
+	}
+
+	#footer-address h6 {
+		font-size: 16px;
+		font-family: norwester;
+		margin:0px;
+	}
+
+	#footer-address span {
+		font-size: 14px;
+		font-family: dosis;
+		display:block;
+	}
+
+	#footer-address h5 {
+		font-size: 16px;
+		font-family: norwester;
+		margin:0px;
+		margin-top: 10px;
 	}
 
 @media only all and (max-width: 767px) {
@@ -202,6 +309,11 @@ nav {
 		height:80px;
 	}
 
+	#header-intro h1{
+		bottom:20px;
+		font-size: 32px;
+	}
+
 	#content-container {
 		margin:20px auto;
 	}
@@ -209,6 +321,11 @@ nav {
 	#content {
 		width: 93%;
 		padding:3%;
+	}
+
+	#footer-menu li {
+		display: block;
+		margin-top: 10px;
 	}
 }
 
@@ -232,6 +349,11 @@ nav {
 
 	#header-intro {
 		height:150px;
+	}
+
+	#header-intro h1{
+		bottom:20px;
+		font-size: 42px;
 	}
 
 	#content-container {
@@ -268,6 +390,11 @@ nav {
 
 	#header-intro {
 		height:300px;
+	}
+
+	#header-intro h1{
+		bottom:20px;
+		font-size: 62px;
 	}
 
 	#content-container {
@@ -311,6 +438,11 @@ nav {
 
 	#header-intro {
 		height:320px;
+	}
+
+	#header-intro h1{
+		bottom:20px;
+		font-size: 92px;
 	}
 
 	#content-container {

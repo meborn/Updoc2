@@ -38,7 +38,14 @@
 				</div>
 			</div>
 			<div id="content-container">
+				<div id="content">
 
+					<div id="video-wrapper">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/QoUEKJxU3mE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<!-- <iframe width="100%" height="720" src="//www.youtube.com/embed/VTE0Mfb-hCY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+					
+				</div>
 			</div>
 			<div id="footer-container">
 				<?php include('includes/footer.php'); ?>

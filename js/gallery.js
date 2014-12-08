@@ -103,4 +103,9 @@ $(document).ready(function() {
 		$('body').toggleClass("body-no-scroll");
 	});
 	// end gallery navigation buttons
+	$('.gallery-btn').hover(function() {
+		$(this).find('h2').css('background-color', '#FE8C24');
+	}, function() {
+		$(this).find('h2').css('background-color', 'rgba(51, 51, 51, 0.5');
+	});
 });

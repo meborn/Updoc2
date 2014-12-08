@@ -14,7 +14,7 @@
 			<div id="header-container">
 				<?php include('includes/header.php'); ?>
 				<div id="header-intro">
-
+					<h1>What Do We Do?</h1>
 				</div>
 			</div>
 			<div id="content-container">

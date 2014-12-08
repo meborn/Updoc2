@@ -1,3 +1,7 @@
+#menu ul li:nth-child(5) {
+		border-bottom: 1px solid #FE8C24;
+	}
+
 #content {
 	/*background-color: blue;*/
 }
@@ -63,6 +67,11 @@
     	border:2px solid #FE8C24;
 	}
 
+	#contact-message:focus {
+		outline: none !important;
+    	border:2px solid #FE8C24;
+	}
+
 	#contact-message {
 		width:100%;
 		border:1px solid #333333;
@@ -76,10 +85,15 @@
 		width:100%;
 		height:40px;
 		background-color: #FFFAEE;
-		border:2px solid #FE8C24;
+		/*border:2px solid #FE8C24;*/
+		border:1px solid #333333;
 		font-family: dosis;
 		font-size: 28px;
 		margin:20px 0px;
+	}
+
+	#contact-submit:hover {
+		background-color: #FE8C24;
 	}
 
 	#contact-submit:focus {
@@ -104,6 +118,10 @@
 		color:#333333;
 		font-size: 24px;
 	}
+
+	#footer-menu li:nth-child(5) {
+	border-bottom: 1px solid #FE8C24;
+}
 
 @media only all and (max-width: 767px) {
 	#contact-info {
