@@ -189,6 +189,35 @@ nav {
 		color:#FFFAEE;
 	}
 
+	#decor {
+		border-bottom: 2px solid #333333;
+		border-top:2px solid #333333;
+		color:#333333;
+		height:60px;
+		width:100%;
+		max-width: 960px;
+		margin:0px auto;
+		margin-bottom: 20px;
+	}
+
+	#decor span {
+		height:30px;
+		width:90%;
+		display: block;
+		margin:0px auto;
+		border-bottom: 1px solid #FE8C24;
+	}
+
+	#decor img {
+		display:block;
+		width:150px;
+		margin:0px auto;
+		position: relative;
+		bottom:30px;
+		background-color: #FFFAEE;
+		padding:0px 5px;
+	}
+
 	#content-container {
 		width:95%;
 		/*height:600px;*/

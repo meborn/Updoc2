@@ -33,11 +33,31 @@
 	#contact-address h3 {
 		font-family: norwester;
 		color:#FE8C24;
-		margin-bottom:20px;
+		margin-bottom:5px;
 	}
 
 	#contact-address {
 		width:100%;
+	}
+
+	#contact-type {
+		margin-bottom: 20px;
+		margin-left: 25px;
+	}
+
+	#contact-type span {
+		display: inline-block;
+		margin-right: 10px;
+		font-family: dosis;
+		color:#333333;
+		font-size: 20px;
+	}
+
+	#contact-type img {
+		display: inline-block;
+		margin-right: 10px;
+		width:8px;
+		height:auto;
 	}
 
 	#map_canvas {

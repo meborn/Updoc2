@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	if($nameErr == "" && $emailErr == "" && $phoneErr == "") {
 		$final_message = "$name \r $phone \r $email \r $message" ;
-		$message_sent = mail('mneborn@gmail.com', 'UPHOLSTERY DOCTOR CONTACT', $final_message);
+		$message_sent = mail('upholsterydoc@hotmail.com', 'UPHOLSTERY DOCTOR CONTACT', $final_message);
 	} else {
 		$message_sent = false;
 	}

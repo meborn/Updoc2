@@ -8,10 +8,9 @@
 }
 
 #content {
-	border:2px solid #333333;
-	/*border-left:2px solid #333333;
-	border-right:2px solid #333333;*/
-	/*background-color: green;*/
+	/*border:1px solid #333333;*/
+	border-left:1px solid #333333;
+	border-right:1px solid #333333;
 }
 
 .service {
@@ -203,8 +202,17 @@
 		max-width: 350px;
 	}
 
+	.service h1 {
+	font-size: 42px;
+}
+
 	.state-btn-container {
 		bottom:2px;
+	}
+
+	.service-right ul li {
+		font-size: 26px;
+		margin: 10px auto;
 	}
 
 }
@@ -223,8 +231,17 @@
 		bottom:2px;
 	}
 
+	.service h1 {
+	font-size: 42px;
+}
+
 	.state-btn-container {
 		bottom:2px;
+	}
+
+	.service-right ul li {
+		font-size: 28px;
+		margin: 10px auto;
 	}
 } 
 

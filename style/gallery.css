@@ -8,7 +8,8 @@
 
 #content {
 	overflow: auto;
-	border:2px solid #333333;
+	border-left:1px solid #333333;
+	border-right:1px solid #333333;
 	/*background-color: green;*/
 }
 
@@ -23,6 +24,24 @@
 	/*background-color: purple;*/
 	position: relative;
 
+}
+
+#gallery-fb {
+	display: inline-block;
+	width:100%;
+	height:40px;
+	border:1px solid #333333;
+	font-family: dosis;
+	font-size: 18px;
+	text-decoration: none;
+	margin:20px auto;
+	color:#333333;
+	line-height: 40px;
+	text-align: center;
+}
+
+#gallery-fb:hover {
+	background-color: #FE8C24;
 }
 
 
@@ -170,6 +189,13 @@
 		margin-bottom: 3%;
 	}
 
+	#gallery-fb {
+		max-width: 300px;
+		float: right;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+
 	.gallery-btn:nth-child(odd) {
 		margin-right: 3%;
 	}
@@ -225,6 +251,13 @@
 		margin-bottom: 4%;
 	}
 
+	#gallery-fb {
+		max-width: 200px;
+		float: right;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+
 	.gallery-btn:nth-child(3), .gallery-btn:nth-child(6) {
 		margin-right:0%;
 	}
@@ -271,6 +304,13 @@
 		width:30.3%;
 		margin-right: 4%;
 		margin-bottom: 4%;
+	}
+
+	#gallery-fb {
+		margin-top: 40px;
+		margin-bottom: 0px;
+		max-width: 200px;
+		float: right;
 	}
 
 	.gallery-btn:nth-child(3), .gallery-btn:nth-child(6) {

@@ -107,11 +107,6 @@
 	top:50px;
 }
 
-#home-content-decor {
-	height:40px;
-	top:0px;
-}
-
 #home-intro-decor span {
 	height:20px;
 	width:90%;
@@ -152,6 +147,47 @@
 	font-family: norwester;
 	font-size: 22px;
 	color:#FE8C24;
+}
+
+#content-left a {
+	text-decoration: none;
+	text-align: center;
+	color:#333333;
+	border:1px solid #333333;
+	display: block;
+	width:100%;
+	position: absolute;
+	font-family: dosis;
+	font-size: 20px;
+	line-height: 40px;
+	height:40px;
+}
+
+#content-left a:hover {
+	background-color: #FE8C24;
+}
+
+#content-left h3 {
+	font-size: 22px;
+	font-family: norwester;
+	color:#333333;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#contact-type span {
+	display: inline-block;
+	margin-right: 10px;
+	font-family: dosis;
+	color:#333333;
+	font-size: 20px;
+}
+
+#contact-type img {
+	display: inline-block;
+	margin-right: 10px;
+	width:8px;
+	height:auto;
 }
 
 #content-right {
@@ -261,6 +297,15 @@
 		padding-top: 30px;
 	}
 
+	#content-left {
+		position: relative;
+		padding-bottom: 70px;
+	}
+
+	#content-left a {
+		bottom:0px;
+	}
+
 	#content-right h4 {
 		margin-top:0px;
 	}
@@ -328,6 +373,15 @@
 
 	.rating img {
 		max-width: 100px;
+	}
+
+	#content-left {
+		position: relative;
+		padding-bottom: 70px;
+	}
+
+	#content-left a {
+		bottom:0px;
 	}
 
 	#content-right {
@@ -402,6 +456,15 @@
 
 	.rating img {
 		max-width: 100px;
+	}
+
+	#content-left {
+		position: relative;
+		padding-bottom: 70px;
+	}
+
+	#content-left a {
+		bottom:0px;
 	}
 
 	#content-right {
@@ -484,6 +547,15 @@
 		max-width: 100px;
 	}
 
+	#content-left {
+		position: relative;
+		padding-bottom: 70px;
+	}
+
+	#content-left a {
+		bottom:0px;
+	}
+
 	#content-right {
 		margin-top: 30px;
 		border-top:2px solid #333;
@@ -557,6 +629,16 @@
 		width:55%;
 		float: left;
 	}
+
+	#content-left {
+		position: relative;
+		padding-bottom: 70px;
+	}
+
+	#content-left a {
+		bottom:0px;
+	}
+
 
 	#content-right {
 		width:41%;
@@ -662,6 +744,17 @@
 		float: left;
 	}
 
+	#content-left {
+		position: relative;
+		padding-bottom:50px;
+	}
+
+	#content-left a {
+		bottom:0px;
+		right:0px;
+		width:200px;
+	}
+
 	#content-right {
 		width:41%;
 		padding-left: 2%;
@@ -737,6 +830,18 @@
 		width:55%;
 		float: left;
 	}
+
+	#content-left {
+		position: relative;
+		padding-bottom:50px;
+	}
+
+	#content-left a {
+		bottom:0px;
+		right:0px;
+		width:200px;
+	}
+
 
 	#content-right {
 		width:41%;

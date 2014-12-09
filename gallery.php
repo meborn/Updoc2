@@ -7,6 +7,17 @@
 
 		<link rel="stylesheet" href="style/gallery.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
+		<!-- google -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-56769748-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</head>
 	<body>
 		<?php $page = 'Gallery' ?>
@@ -18,6 +29,7 @@
 				</div>
 			</div>
 			<div id="content-container">
+				<?php include('includes/decor.php'); ?>
 				<div id="content">
 					<div class="gallery-btn" id="gallery-repair">
 						<img src="images/gallery/repair/repair-xs.jpg" >
@@ -43,6 +55,7 @@
 						<img src="images/gallery/custom/custom-xs.jpg" >
 						<h2>Custom</h2>
 					</div>
+					<a href="https://www.facebook.com/pages/Upholstery-Doctor/115017815276162?sk=photos_stream" id="gallery-fb">Facebook Photos</a>
 				</div>
 			</div>
 			<div id="footer-container">

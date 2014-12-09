@@ -8,6 +8,17 @@
   		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/index.css" type="text/css" media="all"/>
 		
+		<!-- google analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-56769748-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</head>
 	<body>
 		<?php $page = 'Home' ?>
@@ -30,8 +41,8 @@
 								<img>
 							</div>
 						</a>
-						<a href="services.php">
-							<span>Learn<br>More</span>
+						<a href="gallery.php">
+							<span>Our<br>Work</span>
 							<!-- <div class="circle">
 							</div> -->
 						</a>
@@ -50,9 +61,18 @@
 					<!-- <iframe width="100%" height="720" src="//www.youtube.com/embed/VTE0Mfb-hCY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
 					<div id="content-left">
 						 <div id="video-wrapper">
-							<iframe width="560" height="315" src="//www.youtube.com/embed/QoUEKJxU3mE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+						 	<iframe width="560" height="315" src="//www.youtube.com/embed/VTE0Mfb-hCY?rel=0" frameborder="0" allowfullscreen></iframe>
+							<!-- <iframe width="560" height="315" src="//www.youtube.com/embed/QoUEKJxU3mE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
 						</div>
-						<p><span>Upholstery Doctor</span> has been providing quality upholstery services since 2005. However, the doctor and his staff have more than 20 years of experience in the industry. We provide repair, re-upholstery, and custom work on furniture, automibles, boats, ATVs, and RVs. We garuntee quality, honesty, and excellent customer service.</p>
+						<p><span>Upholstery Doctor</span> has been providing quality upholstery services since 2005. However, the doctor and his staff have more than 20 years of experience in the industry. We provide repair, re-upholstery, and custom work on furniture, automobiles, boats, ATVs, and RVs. We guarantee quality, honesty, and excellent customer service.</p>
+						<h3>(435)705-0675</h3>
+						<div id="contact-type">
+							<span>Call</span>
+							<img src="images/dot.png" alt="dot">
+							<span>Click</span>
+							<img src="images/dot.png" alt="dot">
+							<span>Text</span>
+						</div>
 						<a href="contact.php">Contact Us</a>
 					</div>
 					<div id="content-right">
