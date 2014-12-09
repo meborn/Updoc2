@@ -31,6 +31,7 @@ body {
 	position: relative;
 	z-index: 10;
 	border-bottom: 3px solid #FE8C24;
+	/*background-color: blue;*/
 }
 
 #header-intro {
@@ -255,7 +256,7 @@ nav {
 
 	}
 
-	#footer-address {
+	/*#footer-address {
 		color:#FFFAEE;
 		position: absolute;
 		bottom:20px;
@@ -278,7 +279,7 @@ nav {
 		font-family: norwester;
 		margin:0px;
 		margin-top: 10px;
-	}
+	}*/
 
 @media only all and (max-width: 767px) {
 	#logo img {
@@ -319,7 +320,7 @@ nav {
 	}
 
 	#content {
-		width: 93%;
+		width: 94%;
 		padding:3%;
 	}
 
@@ -361,7 +362,7 @@ nav {
 	}
 
 	#content {
-		width: 93%;
+		width: 96%;
 		padding:2%;
 	}
 }
@@ -402,7 +403,7 @@ nav {
 	}
 
 	#content {
-		width: 95%;
+		width: 98%;
 		padding:1%;
 	}
 
@@ -450,7 +451,7 @@ nav {
 	}
 
 	#content {
-		width: 93%;
+		width: 96%;
 		padding:2%;
 	}
 }
