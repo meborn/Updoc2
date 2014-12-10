@@ -7,6 +7,7 @@
 
 		<link rel="stylesheet" href="style/gallery.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
+		<link rel="icon" type="image/png" href="images/favicon.png">
 		<!-- google -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -32,27 +33,27 @@
 				<?php include('includes/decor.php'); ?>
 				<div id="content">
 					<div class="gallery-btn" id="gallery-repair">
-						<img src="images/gallery/repair/repair-xs.jpg" >
+						<img src="images/gallery/repair/repair-xs.jpg" alt="gallery image repair">
 						<h2>Repairs</h2>
 					</div>
 					<div class="gallery-btn" id="gallery-chevy">
-						<img src="images/gallery/chevy/chevy-xs.jpg" >
+						<img src="images/gallery/chevy/chevy-xs.jpg" alt="gallery image 36 chevy" >
 						<h2>36 Chevy</h2>
 					</div>
 					<div class="gallery-btn" id="gallery-recover">
-						<img src="images/gallery/recover/recover-xs.jpg" >
+						<img src="images/gallery/recover/recover-xs.jpg" alt="gallery image recovers" >
 						<h2>Recover</h2>
 					</div>
 					<div class="gallery-btn" id="gallery-boat">
-						<img src="images/gallery/boat/boat-xs.jpg" >
+						<img src="images/gallery/boat/boat-xs.jpg" alt="gallery image boats">
 						<h2>Boats</h2>
 					</div>
 					<div class="gallery-btn" id="gallery-furniture">
-						<img src="images/gallery/furniture/furniture-xs.jpg" >
+						<img src="images/gallery/furniture/furniture-xs.jpg" alt="gallery image furniture">
 						<h2>Furniture</h2>
 					</div>
 					<div class="gallery-btn" id="gallery-custom">
-						<img src="images/gallery/custom/custom-xs.jpg" >
+						<img src="images/gallery/custom/custom-xs.jpg" alt="gallery image custom work" >
 						<h2>Custom</h2>
 					</div>
 					<a href="https://www.facebook.com/pages/Upholstery-Doctor/115017815276162?sk=photos_stream" id="gallery-fb">Facebook Photos</a>
@@ -67,6 +68,9 @@
 						<div id="gallery-left">
 							<div id="gallery-img-container">
 							<!-- <img src="images/gallery/repair/repair-1.jpg"> -->
+							</div>
+							<div id="gallery-text">
+								<p></p>
 							</div>
 							<div id="gallery-nav">
 								<div class="gallery-nav-btn" id="gallery-prev">

@@ -7,6 +7,7 @@ $(document).ready(function() {
 	var display_gallery = function(image_path, gallery_max) {
 		//toggle gallery to display
 		$('#overlay').toggle();
+		$('#overlay-container').toggleClass("fadeIn");
 		//fix for scrolling issue
 		$('body').toggleClass("body-no-scroll");
 		//empty img container and seet intitial variables
@@ -99,6 +100,7 @@ $(document).ready(function() {
 	});
 
 	$('#gallery-exit').click(function() {
+		$('#overlay-container').toggleClass("fadeIn");
 		$('#overlay').toggle();
 		$('body').toggleClass("body-no-scroll");
 	});

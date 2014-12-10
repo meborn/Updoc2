@@ -7,6 +7,7 @@
 
 		<link rel="stylesheet" href="style/about.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
+		<link rel="icon" type="image/png" href="images/favicon.png">
 		<!-- google -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

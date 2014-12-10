@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="style/contact.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
+		<link rel="icon" type="image/png" href="images/favicon.png">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		<!-- google -->
 		<script>
@@ -85,7 +86,7 @@
 						
 						<span class="label">Message</span>
 						<br>
-						<textarea rows="6" cols="50" id="contact-message" name="message" value="<?php echo $message;?>"></textarea>
+						<textarea rows="6" cols="50" id="contact-message" type="text" name="message"></textarea>
 
 						<br>
 						<input id="contact-submit" type="submit" value="Send">

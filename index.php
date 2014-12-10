@@ -7,8 +7,8 @@
   		
   		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/index.css" type="text/css" media="all"/>
-		
-		<!-- google analytics -->
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<!-- google -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -34,11 +34,11 @@
 					</div>
 					<div id="home-intro-links">
 						<a href="services.php#furniture">
-							<img>
+							<img src="images/index/residential-icon.png" alt="residential services icon">
 						</a>
 						<a href="services.php">
 							<div class="circle">
-								<img>
+								<img src="images/index/auto-icon.png" alt="automotive services icon">
 							</div>
 						</a>
 						<a href="gallery.php">
@@ -49,7 +49,7 @@
 					</div>
 					<div id="home-intro-decor">
 						<span></span>
-						<img src="images/index/scissors.png" >
+						<img src="images/index/scissors.png" alt="scissors icon" >
 					</div>
 				</div>
 			</div>
@@ -93,7 +93,7 @@
 							</div>
 						</div>
 						<div class="testimonial">
-							<p>Upholstery Doctor has provided me with awesome know how personal touch assistance for over 10 years. They are the only upholstery shop I would reccommend to anyone.</p>
+							<p>Upholstery Doctor has provided me with awesome know how personal touch assistance for over 10 years. They are the only upholstery shop I would recommend to anyone.</p>
 							<div class="rating">
 								<span>Honesty</span>
 								<img src="images/index/stars.png" alt="stars rating">

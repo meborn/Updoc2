@@ -99,6 +99,7 @@
 		font-family: dosis;
 		margin:8px 0px;
 		font-size: 18px;
+		resize:none;
 	}
 
 	#contact-submit {

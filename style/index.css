@@ -49,6 +49,7 @@
 #home-intro-links a {
 	display: inline-block;
 	margin-right: 5px;
+	background-color: rgba(51, 51, 51, 0.5);
 }
 
 
@@ -60,11 +61,10 @@
 
 #home-intro-links a:nth-child(3) {
 		position: relative;
-		/*background-color: blue;*/
 	}
 
 	#home-intro-links a:nth-child(3) span {
-		color:#333333;
+		color:#FFFAEE;
 		text-decoration: none;
 		font-family: norwester;
 		text-align: center;
@@ -72,10 +72,8 @@
 		width:100%;
 		display: inline-block;
 		margin:0px auto;
-		/*background-color: red;*/
 		position: absolute;
 		bottom:0px;
-		/*top:40%;*/
 		left:0px;
 		right:0px;
 		font-size: 16px;
@@ -259,7 +257,6 @@
 	}
 
 	#home-intro-links a {
-		/*height:40px;*/
 		height:0;
 		width:20%;
 		padding-bottom: 20%;
@@ -269,18 +266,10 @@
 		margin-right: 5px;
 	}
 
-	#home-intro-links a:nth-child(1) img {
-		content: url(../images/index/residential-icon-dark.png);
-	}
-
-	#home-intro-links a:nth-child(2) img {
-		content: url(../images/index/auto-icon-dark.png);
-	}
 
 	#home-intro-links a:nth-child(3) span {
-		color:#333333;
 		top:20%;
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	#home-intro-decor {
@@ -345,20 +334,7 @@
 		margin-right: 5px;
 	}
 
-	#home-intro-links a:nth-child(1) img {
-		content: url(../images/index/residential-icon-dark.png);
-	}
-
-	#home-intro-links a:nth-child(2) img {
-		content: url(../images/index/auto-icon-dark.png);
-	}
-
-	/*#home-intro-links a:nth-child(3) img {
-		content: url(../images/index/auto-icon-dark.png);
-	}*/
-
 	#home-intro-links a:nth-child(3) span {
-		color:#333333;
 		top:20%;
 		font-size: 20px;
 	}
@@ -428,20 +404,7 @@
 		margin-right: 15px;
 	}
 
-	#home-intro-links a:nth-child(1) img {
-		content: url(../images/index/residential-icon-dark.png);
-	}
-
-	#home-intro-links a:nth-child(2) img {
-		content: url(../images/index/auto-icon-dark.png);
-	}
-
-	/*#home-intro-links a:nth-child(3) img {
-		content: url(../images/index/auto-icon-dark.png);
-	}*/
-
 	#home-intro-links a:nth-child(3) span {
-		color:#333333;
 		top:20%;
 		font-size: 22px;
 	}
@@ -513,20 +476,7 @@
 		color:#333;
 	}
 
-	#home-intro-links a:nth-child(1) img {
-		content: url(../images/index/residential-icon.png);
-	}
-
-	#home-intro-links a:nth-child(2) img {
-		content: url(../images/index/auto-icon.png);
-	}
-
-	/*#home-intro-links a:nth-child(3) img {
-		content: url(../images/index/auto-icon.png);
-	}*/
-
 	#home-intro-links a:nth-child(3) span {
-		color:#FFFAEE;
 		top:15%;
 		font-size: 24px;
 	}
@@ -598,20 +548,7 @@
 		color:#333;
 	}
 
-	#home-intro-links a:nth-child(1) img {
-		content: url(../images/index/residential-icon.png);
-	}
-
-	#home-intro-links a:nth-child(2) img {
-		content: url(../images/index/auto-icon.png);
-	}
-
-	/*#home-intro-links a:nth-child(3) img {
-		content: url(../images/index/auto-icon.png);
-	}*/
-
 	#home-intro-links a:nth-child(3) span {
-		color:#FFFAEE;
 		top:15%;
 		font-size: 26px;
 	}
@@ -710,20 +647,7 @@
 		margin-right: 10px;
 	}
 
-	#home-intro-links a:nth-child(1) img {
-		content: url(../images/index/residential-icon.png);
-	}
-
-	#home-intro-links a:nth-child(2) img {
-		content: url(../images/index/auto-icon.png);
-	}
-
-	/*#home-intro-links a:nth-child(3) img {
-		content: url(../images/index/auto-icon.png);
-	}*/
-
 	#home-intro-links a:nth-child(3) span {
-		color:#FFFAEE;
 		top:25%;
 		font-size: 26px;
 	}
@@ -735,9 +659,6 @@
 	#content {
 		overflow: auto;
 		border:1px solid #333333;
-		/*border-left:1px solid #333333;
-		border-right:1px solid #333333;*/
-		/*background-color: blue;*/
 	}
 	#content-left {
 		width:55%;
@@ -796,20 +717,7 @@
 		margin-right: 10px;
 	}
 
-	#home-intro-links a:nth-child(1) img {
-		content: url(../images/index/residential-icon.png);
-	}
-
-	#home-intro-links a:nth-child(2) img {
-		content: url(../images/index/auto-icon.png);
-	}
-
-	/*#home-intro-links a:nth-child(3) img {
-		content: url(../images/index/auto-icon.png);
-	}*/
-
 	#home-intro-links a:nth-child(3) span {
-		color:#FFFAEE;
 		top:25%;
 		font-size: 28px;
 	}
@@ -821,9 +729,6 @@
 	#content {
 		overflow: auto;
 		border:1px solid #333333;
-		/*border-left:1px solid #333333;
-		border-right:1px solid #333333;*/
-		/*background-color: blue;*/
 	}
 
 	#content-left {
