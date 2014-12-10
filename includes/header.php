@@ -1,7 +1,7 @@
 <div id="header-nav">
 		<nav>
 			<div id="logo">
-				<img src="images/updoc-logo-icon.png" >
+				<img src="images/updoc-logo-icon.png" alt="Upholstery Doctor Logo" >
 				<h1>UPHOLSTERY</h1>
 				<h2>doctor</h2>
 			</div>

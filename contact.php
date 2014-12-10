@@ -43,7 +43,7 @@
 										$name = $email = $phone = $message = "";
 									}
 									else {
-										echo "Your message failed. Please check for errors";
+										echo "Your message failed. Please check for errors.";
 									}
 								}
 								
@@ -86,7 +86,7 @@
 						
 						<span class="label">Message</span>
 						<br>
-						<textarea rows="6" cols="50" id="contact-message" type="text" name="message"></textarea>
+						<textarea rows="6" cols="50" id="contact-message" name="message"></textarea>
 
 						<br>
 						<input id="contact-submit" type="submit" value="Send">

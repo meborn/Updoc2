@@ -285,31 +285,6 @@ nav {
 
 	}
 
-	/*#footer-address {
-		color:#FFFAEE;
-		position: absolute;
-		bottom:20px;
-	}
-
-	#footer-address h6 {
-		font-size: 16px;
-		font-family: norwester;
-		margin:0px;
-	}
-
-	#footer-address span {
-		font-size: 14px;
-		font-family: dosis;
-		display:block;
-	}
-
-	#footer-address h5 {
-		font-size: 16px;
-		font-family: norwester;
-		margin:0px;
-		margin-top: 10px;
-	}*/
-
 @media only all and (max-width: 767px) {
 	#logo img {
 		width:35px;

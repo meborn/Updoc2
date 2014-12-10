@@ -26,7 +26,7 @@
 			<div id="header-container">
 				<?php include('includes/header.php'); ?>
 				<div id="home-intro">
-					<img id="header-img" src="images/index/home-page-photo.jpg">
+					<img id="header-img" src="images/index/home-page-photo.jpg" alt="The Doctor Will See Your Now">
 					<div id="home-intro-text">
 						<h1>THE DOCTOR WILL</h1>
 						<h1>SEE YOU NOW</h1>
@@ -43,8 +43,6 @@
 						</a>
 						<a href="gallery.php">
 							<span>Our<br>Work</span>
-							<!-- <div class="circle">
-							</div> -->
 						</a>
 					</div>
 					<div id="home-intro-decor">
@@ -55,14 +53,9 @@
 			</div>
 			<div id="content-container">
 				<div id="content">
-					<!-- <div id="video-wrapper">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/QoUEKJxU3mE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-					</div> -->
-					<!-- <iframe width="100%" height="720" src="//www.youtube.com/embed/VTE0Mfb-hCY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
 					<div id="content-left">
 						 <div id="video-wrapper">
 						 	<iframe width="560" height="315" src="//www.youtube.com/embed/VTE0Mfb-hCY?rel=0" frameborder="0" allowfullscreen></iframe>
-							<!-- <iframe width="560" height="315" src="//www.youtube.com/embed/QoUEKJxU3mE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
 						</div>
 						<p><span>Upholstery Doctor</span> has been providing quality upholstery services since 2005. However, the doctor and his staff have more than 20 years of experience in the industry. We provide repair, re-upholstery, and custom work on furniture, automobiles, boats, ATVs, and RVs. We guarantee quality, honesty, and excellent customer service.</p>
 						<h3>(435)705-0675</h3>

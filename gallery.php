@@ -63,11 +63,10 @@
 				<?php include('includes/footer.php'); ?>
 			</div>
 			<div id="overlay">
-			<div id="overlay-container">
-				<div id="gallery">
+				<div id="overlay-container">
+					<div id="gallery">
 						<div id="gallery-left">
 							<div id="gallery-img-container">
-							<!-- <img src="images/gallery/repair/repair-1.jpg"> -->
 							</div>
 							<div id="gallery-text">
 								<p></p>

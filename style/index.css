@@ -110,7 +110,7 @@
 	width:90%;
 	display: block;
 	margin:0px auto;
-	border-bottom: 1px solid #333333;
+	border-bottom: 1px solid #FE8C24;
 }
 
 #home-intro-decor span {
@@ -559,7 +559,8 @@
 
 	#content {
 		overflow: auto;
-		border:1px solid #333333;
+		border-left:1px solid #333333;
+		border-right:1px solid #333333;
 	}
 
 	#content-left {
@@ -658,7 +659,8 @@
 
 	#content {
 		overflow: auto;
-		border:1px solid #333333;
+		border-left:1px solid #333333;
+		border-right:1px solid #333333;
 	}
 	#content-left {
 		width:55%;
@@ -728,7 +730,8 @@
 
 	#content {
 		overflow: auto;
-		border:1px solid #333333;
+		border-left:1px solid #333333;
+		border-right:1px solid #333333;
 	}
 
 	#content-left {
