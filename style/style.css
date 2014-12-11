@@ -102,6 +102,7 @@ nav {
 		margin:0px;
 		padding-left:40px;
 		float:right;
+		list-style: none;
 	}
 
 	#menu ul li {
@@ -112,6 +113,7 @@ nav {
 		font-size: 20px;
 		text-align: right;
 		color:#FFFAEE;
+
 	}
 
 	#menu ul li:hover {
@@ -192,12 +194,14 @@ nav {
 	#decor {
 		border-bottom: 2px solid #333333;
 		border-top:2px solid #333333;
+		/*border-left:1px solid #333333;
+		border-right:1px solid #333333;*/
 		color:#333333;
 		height:60px;
 		width:100%;
 		max-width: 960px;
 		margin:0px auto;
-		margin-bottom: 20px;
+		/*margin-bottom: 20px;*/
 	}
 
 	#decor span {
@@ -222,7 +226,6 @@ nav {
 		width:95%;
 		/*height:600px;*/
 		max-width: 960px;
-		/*background-color: blue;*/
 	}
 
 	#footer-container { 
@@ -326,6 +329,7 @@ nav {
 	#content {
 		width: 94%;
 		padding:3%;
+		padding-top: 20px;
 	}
 
 	#footer-menu li {
@@ -362,12 +366,13 @@ nav {
 	}
 
 	#content-container {
-		margin:30px auto;
+		margin:20px auto;
 	}
 
 	#content {
 		width: 96%;
 		padding:2%;
+		padding-top: 30px;
 	}
 }
 
@@ -403,7 +408,7 @@ nav {
 	}
 
 	#content-container {
-		margin:40px auto;
+		margin:30px auto;
 	}
 
 	#content {
@@ -451,7 +456,7 @@ nav {
 	}
 
 	#content-container {
-		margin:40px auto;
+		margin:30px auto;
 	}
 
 	#content {

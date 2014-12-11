@@ -25,7 +25,7 @@
 		margin-top:20px;
 	}
 
-#contact-address em {
+#contact-address span {
 		font-family: dosis;
 		color:#333333;
 	}
@@ -157,8 +157,11 @@
 		font-size: 22px;	
 	}
 
-	#contact-address em {
+	.address {
 		font-size: 22px;
+	}
+	.hours {
+		font-size: 16px;
 	}
 
 	#contact-address h3 {
@@ -220,8 +223,11 @@
 		font-size: 22px;	
 	}
 
-	#contact-address em {
+	.address {
 		font-size: 22px;
+	}
+	.hours {
+		font-size: 16px;
 	}
 
 	#contact-address h3 {
@@ -263,8 +269,11 @@
 		font-size: 22px;	
 	}
 
-	#contact-address em {
+	.address {
 		font-size: 22px;
+	}
+	.hours {
+		font-size: 16px;
 	}
 
 	#contact-address h3 {
@@ -303,8 +312,11 @@
 		font-size:32px;
 	}
 
-	#contact-address h2 {
-		font-size: 22px;	
+	.address {
+		font-size: 22px;
+	}
+	.hours {
+		font-size: 16px;
 	}
 
 	#contact-address em {

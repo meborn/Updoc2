@@ -54,9 +54,12 @@
 						<div id="contact-address">
 							<h1>Address & Directions</h1>
 							<h2>Upholstery Doctor</h2>
-							<em>1478 South 270 East</em>
+							<span class="address">1478 South 270 East</span>
 							<br>
-							<em>St. George, Utah 84790</em>
+							<span class="address">St. George, Utah 84790</span>
+							<br>
+							<span class="hours">Monday - Friday </span>
+							<span class="hours">8:30am - 6:00pm</span>
 							<h3>(435) 705-0675</h3>
 							<div id="contact-type">
 								<span>Call</span>

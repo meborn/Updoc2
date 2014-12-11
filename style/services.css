@@ -43,6 +43,8 @@
 	color:#333333;
 	font-family: norwester;
 	font-size: 32px;
+	/*width:45%;
+	float: right;*/
 }
 
 .service-img img {
@@ -90,6 +92,7 @@
 		color:#333333;
 		text-align: center;
 		line-height: 40px;
+		cursor:pointer;
 	}
 
 	.state-btn:hover {
@@ -167,7 +170,8 @@
 
 @media only all and (max-width: 767px) {
 	.service-left {
-		min-width: 280px;
+		width:100%;
+		max-width: 300px;
 	}
 
 	.service-right {
@@ -190,6 +194,11 @@
 	.state-btn-container {
 		bottom:2px;
 	}
+
+	.service h1 {
+		width:45%;
+		float: right;
+	}
 }
 
 @media only all and (min-width: 970px) and (max-width: 1199px) {
@@ -204,6 +213,8 @@
 
 	.service h1 {
 	font-size: 42px;
+	width:58%;
+	float: right;
 }
 
 	.state-btn-container {
@@ -233,10 +244,16 @@
 
 	.service h1 {
 	font-size: 42px;
+	width:55%;
+	float: right;
 }
 
 	.state-btn-container {
 		bottom:2px;
+	}
+
+	.service-right {
+		margin-left: 25px;
 	}
 
 	.service-right ul li {
