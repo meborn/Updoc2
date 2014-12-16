@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Gallery | Upholstery Doctor</title>
+		<title>Gallery Upholstery Doctor | Automotive & Furniture Upholstery Utah</title>
 		<meta charset="utf-8">
   		<meta name="viewport" content= "initial-scale=1">
-
+  		<meta name="description" content="Upholstery and repair work on automotive, furniture, ATVs, RVs, boats and much more. We have been providing upholstery services in Southern Utah since 2005.">
 		<link rel="stylesheet" href="style/gallery.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 		<link rel="icon" type="image/png" href="images/favicon.png">

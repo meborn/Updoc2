@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Upholstery Doctor</title>
+		<title>Upholstery Doctor | Automotive & Furniture Upholstery</title>
 		<meta charset="utf-8">
   		<meta name="viewport" content= "initial-scale=1">
-  		
+  		<meta name="description" content="Upholstery Doctor offers upholstery and repair services in St. George, Utah and surrounding areas. Upholstery services include automotive, furniture, ATVs, RVs, boats, and more.">
   		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/index.css" type="text/css" media="all"/>
 		<link rel="icon" type="image/png" href="images/favicon.png">
@@ -41,7 +41,7 @@
 								<img src="images/index/auto-icon.png" alt="automotive services icon">
 							</div>
 						</a>
-						<a href="gallery.php">
+						<a href="about.php">
 							<span>Learn<br>More</span>
 						</a>
 					</div>
@@ -50,8 +50,14 @@
 			<div id="content-container">
 				<?php include('includes/decor.php'); ?>
 				<div id="content">
-					
-					
+					<div id="home-left">
+						<div id="video-wrapper">
+						 	<iframe width="560" height="315" src="//www.youtube.com/embed/2KAQ8_PnLR0?rel=0" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div id="home-right">
+						<a href="gallery.php">See More</a>
+					</div>
 				</div>
 			</div>
 			<div id="footer-container">

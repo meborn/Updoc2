@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>About | Upholstery Doctor</title>
+		<title>About Upholstery Doctor | Upholstery & Repair Southern Utah</title>
 		<meta charset="utf-8">
   		<meta name="viewport" content= "initial-scale=1">
-
+  		<meta name="description" content="Upholstery Doctor has been providing automotive & furniture upholstery services in Southern Utah since 2005. The doctor has 20 years of experience in the upholstery industry.">
 		<link rel="stylesheet" href="style/about.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 		<link rel="icon" type="image/png" href="images/favicon.png">
@@ -34,7 +34,8 @@
 				<div id="content">
 					<div id="content-left">
 						 <div id="video-wrapper">
-						 	<iframe width="560" height="315" src="//www.youtube.com/embed/2KAQ8_PnLR0?rel=0" frameborder="0" allowfullscreen></iframe>
+						 	<iframe width="560" height="315" src="//www.youtube.com/embed/QoUEKJxU3mE?rel=0" frameborder="0" allowfullscreen></iframe>
+						 	<!-- <iframe width="560" height="315" src="//www.youtube.com/embed/2KAQ8_PnLR0?rel=0" frameborder="0" allowfullscreen></iframe> -->
 						</div>
 						<p><span>Upholstery Doctor</span> has been providing quality upholstery services since 2005. However, the doctor and his staff have more than 20 years of experience in the industry. We provide repair, re-upholstery, and custom work on furniture, automobiles, boats, ATVs, and RVs. We guarantee quality, honesty, and excellent customer service.</p>
 						<h3>(435)705-0675</h3>

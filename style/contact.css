@@ -105,12 +105,12 @@
 	#contact-submit {
 		width:100%;
 		height:40px;
-		background-color: #FFFAEE;
-		/*border:2px solid #FE8C24;*/
-		border:1px solid #333333;
+		color:#FFFAEE;
+		background-color: rgba(254,140,36, 0.8);
 		font-family: dosis;
 		font-size: 28px;
 		margin:20px 0px;
+		border:none;
 	}
 
 	#contact-submit:hover {

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Services | Upholstery Doctor</title>
+		<title>Services Upholstery Doctor | Automotive & Furniture | Upholstery & Repair</title>
 		<meta charset="utf-8">
   		<meta name="viewport" content= "initial-scale=1">
-
+  		<meta name="description" content="Upholstery Doctor provides upholstery services for automotive, furniture, ATVs, RVs, boats and much more. We have more than 20 years of experience in the upholstery and repair industry.">
 		<link rel="stylesheet" href="style/services.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 		<link rel="icon" type="image/png" href="images/favicon.png">

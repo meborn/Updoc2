@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Contact | Upholstery Doctor</title>
+		<title>Contact Upholstery Doctor | Southern Utah Upholstery & Repair</title>
 		<meta charset="utf-8">
   		<meta name="viewport" content= "initial-scale=1">
-
+  		<meta name="description" content="Contact Upholstery Doctor for automotive & furniture upholstery. We provide upholstery & repair services for automotive, furniture, ATVs, RVs, boats and more.">
 		<link rel="stylesheet" href="style/contact.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="style/style.css" type="text/css" media="all"/>
 		<link rel="icon" type="image/png" href="images/favicon.png">

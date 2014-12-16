@@ -10,6 +10,7 @@
 	overflow: auto;
 	border-left:1px solid #333333;
 	border-right:1px solid #333333;
+	border-bottom: 1px solid #333333;
 	/*background-color: green;*/
 }
 
@@ -30,12 +31,13 @@
 	display: inline-block;
 	width:100%;
 	height:40px;
-	border:1px solid #333333;
+	/*border:1px solid #333333;*/
+	color:#FFFAEE;
+	background-color: rgba(254,140,36, 0.8);
 	font-family: dosis;
 	font-size: 18px;
 	text-decoration: none;
 	margin:20px auto;
-	color:#333333;
 	line-height: 40px;
 	text-align: center;
 }
